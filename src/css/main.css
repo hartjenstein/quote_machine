@@ -1,0 +1,41 @@
+.vertical-center {
+  min-height: 80%; 
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+#quote {
+    font-size: 2em;
+
+}
+#quotebox {
+    background-color:black;
+}
+
+#quote-btn {
+   
+    color: cornflowerblue;
+}
+
+ CSS  Result
+EDIT ON
+ .box {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.box:hover {
+  background-color: green;
+  cursor: pointer;
+}
+#signed {
+    text
+}
