@@ -84,8 +84,21 @@ insertQuote();
 function fireEvents() {
   randomBackgroundColor();
   insertQuote();
+  tweetIt();
 }
 // add event handler to button
-let el = document.getElementById("quote-btn");
+let el = document.getElementById("twitter-share-button");
 el.addEventListener("click", fireEvents);
+
+// twitter logic
+
+function tweetIt () {
+  var phrase = document.getElementById('quote').innerText;
+  var tweetUrl = 'https://twitter.com/share?text=' +
+    encodeURIComponent(phrase) +
+    '.' +
+    '&url=' +
+    'http://www.cookbooktitlegenerator.com/';
+  window.open(tweetUrl);
+}
 
